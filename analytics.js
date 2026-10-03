@@ -1,5 +1,8 @@
 
 export function calculateClassAverage(students, courseId) {
+    if (students.length === 0) {
+    return 0;
+}
     const grades = students
         .map(student =>
             student.courses.find(
