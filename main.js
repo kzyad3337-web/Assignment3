@@ -1,4 +1,4 @@
-
+// Main program for the university course management system
 import { Student } from "./models.js";
 
 import { fetchStudents } from "./database.js";
