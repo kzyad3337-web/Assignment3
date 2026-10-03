@@ -1,4 +1,4 @@
-
+// Student class stores student information and course grades.
 export class Student {
     constructor(id, name, courses) {
         Object.defineProperty(this, "id", {
